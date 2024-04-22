@@ -40,6 +40,7 @@
 }
 .logo{
     border-radius: 50%;
+    height: 2rem;
 }
 /* Estilos para las animaciones */
 .animation-container {
@@ -104,12 +105,13 @@
 }
 .contacto{
     display: inline;
+    align-items: center;
     i{
         color: #fff;
         font-size: 2em;
     }
     img{
-        width: 35vw;
+        width: 25vw;
     }
     h4{
         font-size: 1em;
