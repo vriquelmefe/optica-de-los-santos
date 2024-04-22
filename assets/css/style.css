@@ -109,6 +109,9 @@
         font-size: 2em;
     }
     img{
-        width: 20vw;
+        width: 35vw;
+    }
+    h4{
+        font-size: 1em;
     }
 }
