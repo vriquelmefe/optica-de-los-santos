@@ -1,0 +1,112 @@
+ /* Estilos generales */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/andreas-haslinger-WnBij2jMOzw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.cta-button {
+    background-color: #0056b3; /* Azul oscuro */
+    border-color: #0056b3; /* Azul oscuro */
+}
+
+.cta-button:hover {
+    background-color: #004080; /* Azul más oscuro al pasar el mouse */
+    border-color: #004080; /* Azul más oscuro al pasar el mouse */
+}
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #378fee; /* Color de fondo */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold; 
+}
+.navbar-brand {
+    color: #100f0f; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+}
+.navbar-nav .nav-link {
+    color: #171717; /* Color del texto de los enlaces */
+}
+.navbar-nav .nav-link:hover {
+    color: #fff; /* Color del texto de los enlaces al pasar el mouse */
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+/* Estilos para las animaciones */
+.animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Ajustar según el tamaño de la animación */
+}
+.animation {
+    width: 200px; /* Ajustar según el tamaño de la animación */
+    height: auto;
+}
+.carousel-dark .carousel-caption {
+    margin-bottom: 3rem;
+    a{
+        text-decoration: none;
+    }
+}
+.text-contain{
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    margin-bottom: 3rem;
+    padding: 10%;
+}
+.text-container{
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 5px;
+}
+/* Estilos para las tarjetas */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 10px #4c98ea78;
+}
+ /* Estilos para el botón flotante de WhatsApp */
+ .whatsapp-floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegura que el botón esté sobre otros elementos */
+    border-radius: 50%; /* Hace que el botón sea redondo */
+    width: 80px; /* Tamaño del botón */
+    height: 80px; /* Tamaño del botón */
+    background-color: #25d366; /* Color de WhatsApp */
+    text-align: center;
+    line-height: 60px; /* Centra el icono verticalmente */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  
+    a{
+        color: #fff; /* Color del icono */
+        width: 15vw;
+        margin-top: 1rem;
+    }
+    i{
+        padding: .4rem;
+    }
+}
+
+.whatsapp-floating-button:hover {
+    background-color: #128c7e; /* Color de WhatsApp más oscuro al pasar el mouse */
+}
+.contacto{
+    display: inline;
+    i{
+        color: #fff;
+        font-size: 2em;
+    }
+    img{
+        width: 20vw;
+    }
+}
